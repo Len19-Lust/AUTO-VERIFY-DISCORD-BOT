@@ -173,4 +173,4 @@ async def verify(interaction: discord.Interaction,
 
 # Run the bot
 TOKEN = ("TOKEN")  # Replace with your bot's token
-bot.run(TOKEN)
+bot.run(os.getenv("TOKEN"))
