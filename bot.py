@@ -172,5 +172,5 @@ async def verify(interaction: discord.Interaction,
             os.remove(file_path)
 
 # Run the bot
-TOKEN = ("MTM2NzEzODcxOTc1MjEyNjUzNQ.G-pF_s.fn2BBrNDuauHuZrjQVwIqo6IBPRExaRg_Vy-t0")  # Replace with your bot's token
+TOKEN = ("TOKEN")  # Replace with your bot's token
 bot.run(TOKEN)
